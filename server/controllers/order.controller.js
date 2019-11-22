@@ -1,7 +1,4 @@
-import {
-  Order,
-  CartItem
-} from '../models/Order.model'
+import {Order, CartItem} from '../models/Order.model'
 import _ from 'lodash'
 import errorHandler from './../helpers/dbErrorHandler'
 
@@ -19,39 +16,30 @@ const create = (req, res) => {
 }
 
 const listByShop = (req, res) => {
-  Order.find({
-      "products.shop": req.shop._id
-    })
-    .populate({
-      path: 'products.product',
-      select: '_id name price'
-    })
-    .sort('-created')
-    .exec((err, orders) => {
-      if (err) {
-        return res.status(400).json({
-          error: errorHandler.getErrorMessage(err)
-        })
-      }
-      res.json(orders)
-    })
-}
-
-const update = (req, res) => {
-  Order.update({
-    'products._id': req.body.cartItemId
-  }, {
-    '$set': {
-      'products.$.status': req.body.status
-    }
-  }, (err, order) => {
+  Order.find({"products.shop": req.shop._id})
+  .populate({path: 'products.product', select: '_id name price'})
+  .sort('-created')
+  .exec((err, orders) => {
     if (err) {
-      return res.status(400).send({
+      return res.status(400).json({
         error: errorHandler.getErrorMessage(err)
       })
     }
-    res.json(order)
+    res.json(orders)
   })
+}
+
+const update = (req, res) => {
+  Order.update({'products._id':req.body.cartItemId}, {'$set': {
+        'products.$.status': req.body.status
+    }}, (err, order) => {
+      if (err) {
+        return res.status(400).send({
+          error: errorHandler.getErrorMessage(err)
+        })
+      }
+      res.json(order)
+    })
 }
 
 const getStatusValues = (req, res) => {
@@ -70,18 +58,16 @@ const orderByID = (req, res, next, id) => {
 }
 
 const listByUser = (req, res) => {
-  Order.find({
-      "user": req.profile._id
-    })
-    .sort('-created')
-    .exec((err, orders) => {
-      if (err) {
-        return res.status(400).json({
-          error: errorHandler.getErrorMessage(err)
+  Order.find({ "user": req.profile._id })
+        .sort('-created')
+        .exec((err, orders) => {
+            if (err) {
+              return res.status(400).json({
+                error: errorHandler.getErrorMessage(err)
+              })
+            }
+            res.json(orders)
         })
-      }
-      res.json(orders)
-    })
 }
 
 const read = (req, res) => {

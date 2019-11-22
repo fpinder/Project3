@@ -11,11 +11,6 @@
     "node",
     "mern"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shamahoque/mern-marketplace.git"
-  },
-  "homepage": "https://github.com/shamahoque/mern-marketplace",
   "main": "./dist/server.generated.js",
   "scripts": {
     "development": "nodemon",
