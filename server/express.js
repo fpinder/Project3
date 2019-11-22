@@ -53,51 +53,51 @@ app.use('/', productRoutes)
 app.use('/', orderRoutes)
 
 app.get('*', (req, res) => {
-   const sheetsRegistry = new SheetsRegistry()
-   const theme = createMuiTheme({
-     palette: {
-       primary: {
-       light: '#8eacbb',
-       main: '#607d8b',
-       dark: '#34515e',
-       contrastText: '#fff',
-     },
-     secondary: {
-       light: '#e7ff8c',
-       main: '#b2ff59',
-       dark: '#7ecb20',
-       contrastText: '#000',
-     },
-       openTitle: blueGrey['400'],
-       protectedTitle: lightGreen['400'],
-       type: 'light'
-     }
-   })
-   const generateClassName = createGenerateClassName()
-   const context = {}
-   const markup = ReactDOMServer.renderToString(
-      <StaticRouter location={req.url} context={context}>
-         <JssProvider registry={sheetsRegistry} generateClassName={generateClassName}>
-            <MuiThemeProvider theme={theme} sheetsManager={new Map()}>
-              <MainRouter/>
-            </MuiThemeProvider>
-         </JssProvider>
-      </StaticRouter>
-     )
-    if (context.url) {
-      return res.redirect(303, context.url)
+  const sheetsRegistry = new SheetsRegistry()
+  const theme = createMuiTheme({
+    palette: {
+      primary: {
+        light: '#8eacbb',
+        main: '#607d8b',
+        dark: '#34515e',
+        contrastText: '#fff',
+      },
+      secondary: {
+        light: '#e7ff8c',
+        main: '#b2ff59',
+        dark: '#7ecb20',
+        contrastText: '#000',
+      },
+      openTitle: blueGrey['400'],
+      protectedTitle: lightGreen['400'],
+      type: 'light'
     }
-    const css = sheetsRegistry.toString()
-    res.status(200).send(Template({
-      markup: markup,
-      css: css
-    }))
+  })
+  const generateClassName = createGenerateClassName()
+  const context = {}
+  const markup = ReactDOMServer.renderToString(
+    <StaticRouter location={req.url} context={context}>
+      <JssProvider registry={sheetsRegistry} generateClassName={generateClassName}>
+        <MuiThemeProvider theme={theme} sheetsManager={new Map()}>
+          <MainRouter />
+        </MuiThemeProvider>
+      </JssProvider>
+    </StaticRouter>
+  )
+  if (context.url) {
+    return res.redirect(303, context.url)
+  }
+  const css = sheetsRegistry.toString()
+  res.status(200).send(Template({
+    markup: markup,
+    css: css
+  }))
 })
 
 // Catch unauthorised errors
 app.use((err, req, res, next) => {
   if (err.name === 'UnauthorizedError') {
-    res.status(401).json({"error" : err.name + ": " + err.message})
+    res.status(401).json({ "error": err.name + ": " + err.message })
   }
 })
 
