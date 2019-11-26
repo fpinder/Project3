@@ -27,7 +27,7 @@ const Menu = withRouter(({ history }) => (
   <AppBar position="static">
     <Toolbar>
       <Typography type="title" color="inherit">
-        PARIS Marketplace
+        Chris Howard Perfumes
       </Typography>
       <div>
         <Link to="/">
