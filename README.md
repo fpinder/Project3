@@ -8,7 +8,7 @@
 
 [Presentation](https://github.com/fpinder/Project3/blob/master/ParisPerfume.pptx?raw=true) *Provides and overview of the intended development of the new site*
 
-`Home Page`
+**Home Page**
 
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/default.jpg" alt="Home Page"></a>
 
@@ -19,29 +19,59 @@
 
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/AllShopst.jpg" alt="All Shops"></a>
 
+
+**Sing up, Login and Profile**
+
 *In order to complete or purchase a product a person will need to create and account or login. Addiitonally he/she has he ability to edit the profile to be an activity seller or just delete the account*
 
-`Sing up, Login and Profile`
+`Sing up`
 
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/sing-up.jpg" alt="Sing up"></a>
 
+`New Account`
+
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/new-account.jpg" alt="New Account"></a>
+
+`Profile`
 
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/profile.jpg" alt="Profile"></a>
 
+`Edit Profile`
+
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/profile-edit.jpg" alt="Edit Profile"></a>
+
+`Delete Account`
 
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/deleteAcct.jpg" alt="Delete Account"></a>
 
+`Edit Profile`
+
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/profile-edit.jpg" alt="Edit Profile"></a>
 
+**New Shops, Added Products, Ordering, Check out, and Invoices**
 
+*When an account is created and if a customer acivate his/her account as a seller he/she can create a shop and add products to be sold. After the customes has seleted the items it's put in the checkout basket. When the customer click on checkout he/she will be taking to the checkout form to completed the order with the credit card number and shipment information. After the oreder is completed the customer will see the invoice of the iterms purchase*
 
+`New Shops`
 
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/new-shop-create.jpg" alt="New Shops"></a>
 
-`order Detail`
+`Added Products`  %%%%%%%%%%%%%%%%
 
-<a href="#"><img src="/" alt="order Detail"></a>
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/new-products.jpg" alt="Added Products"></a>
+
+`Order`
+
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/order.jpg" alt="Order"></a>
+
+`Order Checkout`
+
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/order-checkout.jpg" alt="Order Checkout"></a>
+
+`Invoice`
+
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/order-placed.jpg" alt="Invoice"></a>
+
 
 **The application Paris Perfumes is organized with the following struiture:** 
 
