@@ -6,9 +6,7 @@
 
 *The Application [Paris Perfumes](https://morning-escarpment-49800.herokuapp.com/) is a MERN stack technologies develop for an online marketplace application complete with features that enable users to buy and sell product.*
 
-`Presentation`
-
-<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/ParisPerfume.pptx?raw=true" alt="Presentation"></a>
+[Presentation](https://github.com/fpinder/Project3/blob/master/ParisPerfume.pptx?raw=true)
 
 `Home Page`
 
