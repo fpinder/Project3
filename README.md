@@ -6,6 +6,10 @@
 
 *The Application [Paris Perfumes](https://morning-escarpment-49800.herokuapp.com/) is a MERN stack technologies develop for an online marketplace application complete with features that enable users to buy and sell product.*
 
+`Presentation`
+
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/Paris%20Perfume.pptx" alt="Presentation"></a>
+
 `Home Page`
 
 <a href="#"><img src="/" alt="Home Page"></a>
@@ -43,13 +47,12 @@ Paris Perfume
 | Express | To handle HTTP requests and serve responses properly | 
 | Mongoose | to define a connection with the MongoDB database.  |
 | Stripe   | to authenticate and completed order  |
-| apiRoutes.js   | Used  displaying a JSON of all possible friends, handle incoming survey results, and handle the compatibility logic  |
-| apiRoutes.js   | Used  displaying a JSON of all possible friends, handle incoming survey results, and handle the compatibility logic  |
+
 
 
 **_Data excerpts_**
 
-*The application's data is stored in side of `Mongoose data base` as an  objects.* 
+*The application's data is stored in side of the `Mongoose data base` as an  objects.* 
 
  ```
 
