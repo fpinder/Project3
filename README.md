@@ -10,14 +10,34 @@
 
 `Home Page`
 
-<a href="#"><img src="/" alt="Home Page"></a>
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/default.jpg" alt="Home Page"></a>
 
 
-*The application also has an error checking process to ensure that all required are fields completed before the page order is submitted*
+*A customer can access the site without having and account and view all the shops available*
 
-`Error Checking`
+`All Shops`
 
-<a href="#"><img src="/" alt="error checking"></a>
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/AllShopst.jpg" alt="All Shops"></a>
+
+*In order to complete or purchase a product a person will need to create and account or login. Addiitonally he/she has he ability to edit the profile to be an activity seller or just delete the account*
+
+`Sing up, Login and Profile`
+
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/sing-up.jpg" alt="Sing up"></a>
+
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/new-account.jpg" alt="New Account"></a>
+
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/profile.jpg" alt="Profile"></a>
+
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/profile-edit.jpg" alt="Edit Profile"></a>
+
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/deleteAcct.jpg" alt="Delete Account"></a>
+
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/profile-edit.jpg" alt="Edit Profile"></a>
+
+
+
+
 
 `order Detail`
 
