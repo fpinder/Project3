@@ -6,7 +6,7 @@
 
 *The Application [Paris Perfumes](https://morning-escarpment-49800.herokuapp.com/) is a MERN stack technologies develop for an online marketplace application complete with features that enable users to buy and sell product.*
 
-[Presentation](https://github.com/fpinder/Project3/blob/master/ParisPerfume.pptx?raw=true)
+[Presentation](https://github.com/fpinder/Project3/blob/master/ParisPerfume.pptx?raw=true) *Provides and overview of the intended development of the new site*
 
 `Home Page`
 
@@ -48,12 +48,109 @@ Paris Perfume
 
 
 
-**_Data excerpts_**
+**_Metadata_**
 
 *The application's data is stored in side of the `Mongoose data base` as an  objects.* 
 
  ```
+ [products.metadata]
 
+ {
+    "options": {},
+    "indexes": [
+        {
+            "v": {
+                "$numberInt": "2"
+            },
+            "key": {
+                "_id": {
+                    "$numberInt": "1"
+                }
+            },
+            "name": "_id_",
+            "ns": "mernproject.products"
+        }
+    ],
+    "uuid": "f85d05c1129944ac9203db6cd78eae2c"
+}
+
+[orders.metadata]
+
+{
+    "options": {},
+    "indexes": [
+        {
+            "v": {
+                "$numberInt": "2"
+            },
+            "key": {
+                "_id": {
+                    "$numberInt": "1"
+                }
+            },
+            "name": "_id_",
+            "ns": "mernproject.orders"
+        }
+    ],
+    "uuid": "8de176c60585498fb3f1502bdf4d82f4"
+}
+
+[shops.metadata]
+
+{
+    "options": {},
+    "indexes": [
+        {
+            "v": {
+                "$numberInt": "2"
+            },
+            "key": {
+                "_id": {
+                    "$numberInt": "1"
+                }
+            },
+            "name": "_id_",
+            "ns": "mernproject.shops"
+        }
+    ],
+    "uuid": "a7755ed35ea64c68a94d32e85bbf6da9"
+}
+
+
+[users.metadata]
+
+{
+    "options": {},
+    "indexes": [
+        {
+            "v": {
+                "$numberInt": "2"
+            },
+            "key": {
+                "_id": {
+                    "$numberInt": "1"
+                }
+            },
+            "name": "_id_",
+            "ns": "mernproject.users"
+        },
+        {
+            "v": {
+                "$numberInt": "2"
+            },
+            "unique": true,
+            "key": {
+                "email": {
+                    "$numberInt": "1"
+                }
+            },
+            "name": "email_1",
+            "ns": "mernproject.users",
+            "background": true
+        }
+    ],
+    "uuid": "b6755d5f4f30477fb978d44c9690e95d"
+}
 
 ```
 
