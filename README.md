@@ -8,7 +8,7 @@
 
 `Presentation`
 
-<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/Paris%20Perfume.pptx" alt="Presentation"></a>
+<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/ParisPerfume.pptx" alt="Presentation"></a>
 
 `Home Page`
 
