@@ -53,7 +53,7 @@ Paris Perfume
 *The application's data is stored in side of the `Mongoose data base` as an  objects.* 
 
  ```
- [products.metadata]
+ [Products.Metadata]
 
  {
     "options": {},
@@ -74,7 +74,7 @@ Paris Perfume
     "uuid": "f85d05c1129944ac9203db6cd78eae2c"
 }
 
-[orders.metadata]
+[Orders.Metadata]
 
 {
     "options": {},
@@ -95,7 +95,7 @@ Paris Perfume
     "uuid": "8de176c60585498fb3f1502bdf4d82f4"
 }
 
-[shops.metadata]
+[Shops.Metadata]
 
 {
     "options": {},
@@ -117,7 +117,7 @@ Paris Perfume
 }
 
 
-[users.metadata]
+[Users.Metadata]
 
 {
     "options": {},
