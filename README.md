@@ -44,9 +44,7 @@
 
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/deleteAcct.jpg" alt="Delete Account"></a>
 
-`Edit Profile`
 
-<a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/profile-edit.jpg" alt="Edit Profile"></a>
 
 **New Shops, Added Products, Ordering, Check out, and Invoices**
 
