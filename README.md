@@ -73,8 +73,6 @@
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/order-placed.jpg" alt="Invoice"></a>
 
 
-**The application Paris Perfumes is organized with the following struiture:** 
-
 ```
 Paris Perfume 
     
