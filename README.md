@@ -56,7 +56,7 @@
 
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/new-shop-create.jpg" alt="New Shops"></a>
 
-`Added Products`  %%%%%%%%%%%%%%%%
+`Added Products`
 
 <a href="#"><img src="https://github.com/fpinder/Project3/blob/master/client/assets/images/new-products.jpg" alt="Added Products"></a>
 
