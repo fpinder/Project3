@@ -4,7 +4,7 @@
 
 **Object**
 
-*The Application [Paris Perfumes](https://morning-escarpment-49800.herokuapp.com/) is a MERN stack technologies develop for an online marketplace application complete with features that enable users to buy and sell product.*
+*The Application [Paris Perfumes](https://morning-escarpment-49800.herokuapp.com/) is a MERN stack technologies develop for an online marketplace application complete with features that enable users to buy and sell product. Online Marketplace include a shopping cart feature, Stripe integration for processing credit card payments, and a basic order-management flow. Addtionaly, it contains all the custom components that make up the MERN Marketplace frontend such as Profile, MyShops, Products, and Suggestions, and also components, such as AddToCart, MyOrders, Cart, and ShopOrders*
 
 [Presentation](https://github.com/fpinder/Project3/blob/master/ParisPerfume.pptx?raw=true) *Provides and overview of the intended development of the new site*
 
